@@ -1,0 +1,26 @@
+{
+    "name": "hse-proj",
+    "version": "1.0.0",
+    "description": "Health Safety and Education",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "keywords": [
+        "health",
+        "safety",
+        "education"
+    ],
+    "author": "Kazi Mamunar Rashid",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
